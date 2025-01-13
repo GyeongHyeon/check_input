@@ -12,6 +12,7 @@ a{ text-decoration: none }
 
 .list_container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -19,6 +20,9 @@ a{ text-decoration: none }
     margin-top: 4rem;
 }
 
+ul{
+    height: 100%;
+}
 .list_item {
     width: 100%;
     border: 2px solid #fff;
